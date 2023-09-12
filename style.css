@@ -6,6 +6,7 @@ body {
  background-color: rgb(231, 6, 6);
  color: white;
  padding: 30px;
+ position: relative;
 }
 
 #header h1{
@@ -24,4 +25,22 @@ body {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
     margin-left: 100px;
+}
+
+#header ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  /*border: 1px solid white;*/
+}
+
+#header li{
+    float: left;
+    width: 160px;
+    list-style-type: none;
 }
