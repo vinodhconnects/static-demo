@@ -44,3 +44,10 @@ body {
     width: 160px;
     list-style-type: none;
 }
+
+#header li:hover {
+    text-decoration: underline;
+    color: rgb(247, 243, 243);
+    cursor: pointer;
+    font-size: 20px;
+}
