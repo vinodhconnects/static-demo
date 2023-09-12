@@ -7,3 +7,14 @@ body {
  color: white;
  padding: 30px;
 }
+
+#header h1{
+    border: 2px dashed white;
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-family: Arial, 'Courier New', Courier, monospace;
+}
