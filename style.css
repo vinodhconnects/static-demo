@@ -18,3 +18,10 @@ body {
     border-radius: 5px;
     font-family: Arial, 'Courier New', Courier, monospace;
 }
+
+#caption {
+    font-style: italic;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    margin-left: 100px;
+}
