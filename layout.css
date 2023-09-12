@@ -1,0 +1,27 @@
+#slide-show {
+    background-color: rgb(222, 225, 228);
+    height: 300px;
+}
+
+#content-area {
+    overflow: hidden;
+}
+
+#main-area {
+    width: 70%;
+    box-sizing: border-box;
+    background-color: rgb(194, 223, 249);
+    float: left;
+    min-height: 500px;
+}
+#navigation{
+    width: 30%;
+    min-height: 500px;
+    background-color: rgb(110, 109, 109);
+    float:left;
+    box-sizing: border-box;
+}
+#footer{
+    height: 100px;
+    background-color: rgb(231, 6, 6);
+}
