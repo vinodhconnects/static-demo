@@ -25,6 +25,43 @@
     width: 100%;
 }
 
+#left-arrow {
+    position: absolute; 
+    left: 3px;
+    top: 40%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 15px;
+    z-index:2;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#left-arrow img{
+    height: 100%;
+    width: 100%;
+}
+
+#right-arrow {
+    position: absolute; 
+    right: 3px;
+    top: 40%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid  black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#right-arrow img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
 
 
 #content-area {
