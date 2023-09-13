@@ -38,10 +38,6 @@
     cursor: pointer;
 }
 
-#left-arrow img{
-    height: 100%;
-    width: 100%;
-}
 
 #right-arrow {
     position: absolute; 
@@ -55,11 +51,14 @@
     cursor: pointer;
 }
 
-#right-arrow img{
+#right-arrow img,#left-arrow img{
     height: 100%;
     width: 100%;
 }
 
+#left-arrow img:hover, #right-arrow img:hover {
+    transform: scale(2)
+}
 
 
 
@@ -71,9 +70,10 @@
 #main-area {
     width: 70%;
     box-sizing: border-box;
-    background-color: rgb(194, 223, 249);
+    background-color: rgb(232, 236, 239);
     float: left;
     min-height: 500px;
+    padding: 5px;
 }
 #navigation{
     width: 30%;
@@ -85,4 +85,38 @@
 #footer{
     height: 100px;
     background-color: rgb(231, 6, 6);
+}
+
+#main-area h1{
+    color: darkred;
+    font-family: arial;
+}
+
+#main-area #service-box {
+    padding: 30px;
+    margin: 20px;
+    width: 90%;
+}
+
+#main-area #service-box .sbox{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+}
+
+.sbox h3{
+    color: rgb(124, 6, 6);
+    text-decoration: underline;
+}
+
+.sbox li{
+    color: rgb(67, 65, 65);
 }

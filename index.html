@@ -5,6 +5,8 @@ to other script and css files-->
    <link rel="icon" type="image/x-icon" href="globe.ico">
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" type="text/css" href="layout.css">
+   <script src="script.js"></script>
+   
    <!--
    <style>
      h1 {
@@ -29,15 +31,21 @@ to other script and css files-->
   </div>
   <div id="slide-show">
      <div id="image-area">
-         <div id="left-arrow"><img src="images/left.png"></div>
-         <div id="center-image"><img src="images/tech1.jpg"></div>
-         <div id="right-arrow"><img src="images/right.png"></div>
+         <div id="left-arrow" onclick="slidecontrol('left')"><img src="images/left.png"></div>
+         <div id="center-image"><img id="ci" src="images/tech1.jpg"></div>
+         <div id="right-arrow" onclick="slidecontrol('right')"><img src="images/right.png"></div>
      </div>
   </div>
   <div id="content-area">
-     <div id="main-area"></div>
+     <div id="main-area">
+       <h1> Our Services</h1>
+       <div id="service-box">
+
+       </div>
+     </div>
      <div id="navigation"></div>
   </div>  
   <div id="footer"></div>
 </body>
+<script src="services.js"></script>
 </html>
