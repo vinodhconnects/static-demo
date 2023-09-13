@@ -3,6 +3,30 @@
     height: 350px;
 }
 
+#slide-show #image-area{
+    width: 80%;
+    height: 100%;
+    margin-left:10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+#slide-show #image-area #center-image {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 100%; 
+    width: 100%;
+    background-color: black;
+}
+
+#slide-show #image-area #center-image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
 #content-area {
     overflow: hidden;
 }
