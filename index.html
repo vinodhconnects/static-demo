@@ -5,6 +5,7 @@ to other script and css files-->
    <link rel="icon" type="image/x-icon" href="globe.ico">
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" type="text/css" href="layout.css">
+   <link rel="stylesheet" type="text/css" href="form.css">
    <script src="script.js"></script>
    
    <!--
@@ -43,9 +44,44 @@ to other script and css files-->
 
        </div>
      </div>
-     <div id="navigation"></div>
+     <div id="navigation">
+        <h3> Send your Enquiries </h3>
+        <form>
+        <table>
+         <tr>
+               <th>Name</th>
+               <td><input type="text" name="name"></td>
+         </tr>
+         <tr>
+            <th>Location</th>
+            <td><input type="text" name="location"></td>
+        </tr>
+        <tr>
+         <th>Service Type</th>
+         <td>
+         <select>
+            <option>App Services</option>
+            <option>Cloud Services</option>
+            <option>Data  Services</option>
+            <option>Testing Services</option>
+         </select>
+         </td>
+        </tr>
+        <tr>
+           <th> Your Message</th>
+           <td><textarea name="message"></textarea></td>
+        </tr>
+        <tr>
+           <td colspan="2"><button> Send Enquiry </button></td>
+        </tr>
+
+        </table>
+      </form>
+     </div>
   </div>  
-  <div id="footer"></div>
+  <div id="footer" style="color:white; text-align: center;padding:20px">
+    <h2>&copy; All copyrights reserved , 2023</h2>
+  </div>
 </body>
 <script src="services.js"></script>
 </html>

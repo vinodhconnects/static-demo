@@ -1,0 +1,38 @@
+#navigation {
+     background-color:  whitesmoke;
+     padding: 20px;
+}
+#navigation h3{
+    color: darkred;
+}
+
+#navigation th {
+    color: rgb(55, 55, 55);
+    font-size: 17px;
+    text-align: left;
+    width: 150px;
+    padding-bottom: 30px;
+}
+
+input[type="text"], select {
+    height: 35px;
+    width: 200px;
+    border-radius: 3px;
+}
+textarea {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+button:hover{
+    background-color: black;
+}
